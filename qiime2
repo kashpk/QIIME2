@@ -1,0 +1,15 @@
+## install conda
+## install qiime within conda [linux]
+wget https://data.qiime2.org/distro/core/qiime2-2022.2-py38-linux-conda.yml
+conda env create -n qiime2-2022.2 --file qiime2-2022.2-py38-linux-conda.yml
+
+## OPTIONAL CLEANUP
+rm qiime2-2022.2-py38-linux-conda.yml
+
+## Activate the conda environment
+conda activate qiime2-2022.2
+## Test your installation
+qiime --help
+
+## Activating QIIME 2
+conda activate qiime2-2022.2
